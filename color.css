@@ -1,0 +1,60 @@
+body {
+    background-color:rgba(255, 217, 0, 0.432);
+    padding-left: 5em;
+    font-family: Georgia, "Times New Roman",
+        Times, serif;
+    color: black;
+    font-size: 14;
+}
+
+dl {
+    font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+    font-size: 12;
+    color: rgb(110, 0, 153);
+    text-align: center;
+}
+
+dl {
+    font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+    color: blue;
+    font-size: 10;
+}
+
+ol {
+    font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+    color: rgb(0, 255, 13);
+    font-size: 10;
+}
+
+p {
+	font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;
+    color: black;
+    font-size: 12;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+h3 {
+    color: rgb(128, 0, 96);
+    font-size: 15;
+}
+a:link {
+    color:rgb(0, 29, 110);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(111, 168, 5);
+}
+a:active {
+    color:rgb(209, 9, 9);
+    list-style-type: circle;
+}
+a:visited {
+    color:rgb(1, 1, 41);
+    list-style-type: circle;
+}
