@@ -1,5 +1,5 @@
 body {
-    background-color:rgba(240, 206, 144, 0.945);
+    background-color: rgba(240, 206, 144, 0.945);
     padding-left: 5em;
     font-family: Georgia, "Times New Roman",
         Times, serif;
@@ -14,15 +14,18 @@ dl {
     color: rgb(110, 0, 153);
     text-align: center;
 }
+
 dt {
     font-weight: bold;
     text-decoration: underline;
-	color: black;
-  }
+    color: black;
+}
+
 dd {
     margin: 0;
     padding: 0 0 0.5em 0;
-  }
+}
+
 dl {
     font-family: Helvetica, Geneva, Arial,
         SunSans-Regular, sans-serif;
@@ -32,67 +35,68 @@ dl {
 
 
 div.container {
-  text-align: center;
+    text-align: center;
 }
 
-ul.circulo { 
-	list-style-type: circle; 
-	padding-left: 40px;
-	text-align:center;
-	display: inline-block;
+ul.circulo {
+    list-style-type: circle;
+    padding-left: 40px;
+    text-align: center;
+    display: inline-block;
 }
 
 p {
-	font-family: Helvetica, Geneva, Arial,
+    font-family: Helvetica, Geneva, Arial,
         SunSans-Regular, sans-serif;
     color: black;
     font-size: 12;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 
 h1 {
     color: rgb(128, 0, 96);
     font-size: 15;
-	text-align:center;
-	text-decoration: none;
+    text-align: center;
+    text-decoration: none;
 }
 
 h2 {
     color: rgb(128, 0, 96);
     font-size: 15;
-	text-align:center;
+    text-align: center;
 }
 
 h3 {
     color: rgb(118, 68, 138);
     font-size: 15;
-	text-align:center;
-	text-decoration: underline;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
 h4 {
     color: black;
     font-size: 10;
-	text-align:left;
+    text-align: left;
 }
 
 h1:link {
-    color:rgb(0, 29, 110);
+    color: rgb(0, 29, 110);
     text-decoration: none;
 }
+
 h1:visited {
-    color:rgb(1, 1, 41);
+    color: rgb(1, 1, 41);
     text-decoration: none;
 }
 
 h1:hover {
-    color:rgb(111, 168, 5);
-	text-decoration: none;
-}
-h1:active {
-    color:rgb(209, 9, 9);
+    color: rgb(111, 168, 5);
     text-decoration: none;
 }
 
+h1:active {
+    color: rgb(209, 9, 9);
+    text-decoration: none;
+}
