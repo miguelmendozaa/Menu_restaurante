@@ -14,7 +14,15 @@ dl {
     color: rgb(110, 0, 153);
     text-align: center;
 }
-
+dt {
+    font-weight: bold;
+    text-decoration: underline;
+	color: black;
+  }
+dd {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+  }
 dl {
     font-family: Helvetica, Geneva, Arial,
         SunSans-Regular, sans-serif;
@@ -22,11 +30,16 @@ dl {
     font-size: 10;
 }
 
-ol {
-    font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif;
-    color: rgb(0, 255, 13);
-    font-size: 10;
+
+div.container {
+  text-align: center;
+}
+
+ul.circulo { 
+	list-style-type: circle; 
+	padding-left: 40px;
+	text-align:center;
+	display: inline-block;
 }
 
 p {
@@ -35,26 +48,51 @@ p {
     color: black;
     font-size: 12;
 	font-weight: bold;
-	text-decoration: underline;
 }
 
 
 h1 {
     color: rgb(128, 0, 96);
     font-size: 15;
+	text-align:center;
+	text-decoration: none;
 }
-a:link {
+
+h2 {
+    color: rgb(128, 0, 96);
+    font-size: 15;
+	text-align:center;
+}
+
+h3 {
+    color: rgb(118, 68, 138);
+    font-size: 15;
+	text-align:center;
+	text-decoration: underline;
+}
+
+
+h4 {
+    color: black;
+    font-size: 10;
+	text-align:left;
+}
+
+h1:link {
     color:rgb(0, 29, 110);
     text-decoration: none;
 }
-a:hover {
-    color:rgb(111, 168, 5);
-}
-a:active {
-    color:rgb(209, 9, 9);
-    list-style-type: circle;
-}
-a:visited {
+h1:visited {
     color:rgb(1, 1, 41);
-    list-style-type: circle;
+    text-decoration: none;
 }
+
+h1:hover {
+    color:rgb(111, 168, 5);
+	text-decoration: none;
+}
+h1:active {
+    color:rgb(209, 9, 9);
+    text-decoration: none;
+}
+
